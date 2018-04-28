@@ -7,8 +7,8 @@ body {
   
  }
 
+/* Used for adding a line for each section*/
  hr{
-
       width: 92vw;
       margin-bottom: 3vw;
  }
@@ -21,7 +21,7 @@ body {
   background-image: url(bg-6-full.jpg);
   background-size: cover;
    }
-
+/* Used for the topmost section/Menu bar with logo*/
   .container .topbar{
     display: flex;
     background-color: #AC2832;
@@ -65,7 +65,7 @@ body {
   transform: translateY(-7px);
 }
 
-
+/* Used for image section with background GIF*/
 .row{
   display: flex;
   flex-direction: row;
@@ -104,13 +104,7 @@ body {
   text-align: center;
   opacity: 0;
  }
- 
-.Profession{
-  background-image: url(prof.gif);
-  width: 98.5vw;
-  height: auto;
-  box-shadow: 0 2px 3px 0 #2c2c2c;
-}
+  /* Used for footer section with social media pics*/
 
  .Project{
   width: 98.5vw;
@@ -137,6 +131,7 @@ body {
         opacity: 0;
      }
 
+/* Used for adjusting screen sizes*/
     @media only screen and (max-width: 1205px)
 {
     .container .topbar{

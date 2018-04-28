@@ -1,3 +1,4 @@
+/* Used as Welcome note to user. It does not works below 550 px*/
 :root {
   font-size: 12px; }
 
@@ -17,6 +18,8 @@
   overflow: hidden;
   
 }
+
+/* Used for 1st line "Hi This is Anurag"*/
 .row .rsidetxt p:nth-child(1) {
   width: 20rem;
   border-right: .15em solid white;
@@ -26,6 +29,7 @@
   animation-fill-mode: forwards;
 }
 
+/* Used for 2nd line "Hope you are doing good"*/
 .row .rsidetxt p:nth-child(2) {
   width: 11.5em;
   opacity: 0;
@@ -36,7 +40,7 @@
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
+/* Used for "Welcome to my Portfolio"*/
 .row .rsidetxt p:nth-child(3) {
   width: 11em;
   opacity: 0;
@@ -48,7 +52,7 @@
   animation-fill-mode: forwards;
 }
 
-
+/* Used for My Projects section  "This is my First portfolio"*/
 .techi p{
   margin-left: 15vw;
    color: white;
@@ -58,17 +62,16 @@
   border-right: .15em solid black;
   white-space: nowrap;
   overflow: hidden; 
-
   width: 60vw;
  opacity: 0;
-  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type4 4s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type4 4s steps(20, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
  }
-
+/* Used for My Projects section  "Looking forward to learn"*/
 .techi p:nth-child(1){
   margin-left: 15vw;
    color: white;
@@ -81,8 +84,8 @@
 
   width: 60vw;
  opacity: 0;
-  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type5 5s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type5 5s steps(20, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 8s;
   animation-delay: 8s;
   -webkit-animation-fill-mode: forwards;
