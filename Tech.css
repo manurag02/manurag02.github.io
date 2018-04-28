@@ -1,0 +1,77 @@
+.gallery
+{
+    display: flex;
+    border:box-border;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 92vw;
+    height: 25vw;
+   margin-left:  3vw;
+   margin-bottom: 2vw;
+}
+
+
+
+
+.gallery .tech1
+{
+
+    height: 15vw;
+    width: 20vw;
+    padding-bottom: 5vw;
+    background-image: url(mongoDb.jpg);
+    background-size: cover;
+    box-shadow: 0px 3px 20px 2px #F0FFFF;
+    margin: auto;
+    
+}
+
+.gallery .tech1:hover{
+    border:solid #777;
+}
+.gallery .tech2
+{
+
+    height: 15vw;
+    width: 20vw;
+    padding-bottom: 5vw;
+    background-image: url(expressJs.png);
+    background-size: cover;
+    box-shadow: 0px 3px 20px 2px #F0FFFF;
+    margin: auto;
+
+}
+.gallery .tech2:hover{
+    border:solid #777;
+}
+.gallery .tech3
+{
+
+    height: 15vw;
+    width: 20vw;
+    padding-bottom: 5vw;
+    background-image: url(angular.jpg);
+    background-size: cover;
+    box-shadow: 0px 3px 20px 2px #F0FFFF;
+    margin: auto;
+
+}
+
+.gallery .tech3:hover{
+    border:solid #777;
+}
+.gallery .tech4
+{
+
+    height: 15vw;
+    width: 20vw;
+    padding-bottom: 5vw;
+    background-image: url(nodeJS.png);
+    background-size: cover;
+    box-shadow: 0px 3px 20px 2px #F0FFFF;
+    margin: auto;
+
+}
+
+.gallery .tech4:hover{
+    border:solid #777;
+}

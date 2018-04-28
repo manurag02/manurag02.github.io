@@ -1,0 +1,191 @@
+:root {
+  font-size: 12px; }
+
+  .row .rsidetxt{
+  padding-top: 25rem;
+  padding-left:10rem;
+ 
+}
+
+.row .rsidetxt p {
+	color: white;
+  font-size: 2.5rem;
+  font-family: havletica,sans-serif;
+  background-color: rgba(0,0,0,0.6);
+  border-right: .15em solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+.row .rsidetxt p:nth-child(1) {
+  width: 20rem;
+  border-right: .15em solid white;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.row .rsidetxt p:nth-child(2) {
+  width: 11.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.row .rsidetxt p:nth-child(3) {
+  width: 11em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+.techi p{
+  margin-left: 15vw;
+   color: white;
+  font-size: 2.5rem;
+  font-family: havletica,sans-serif;
+  background-color: rgba(0,0,0,0.6);
+  border-right: .15em solid black;
+  white-space: nowrap;
+  overflow: hidden; 
+
+  width: 60vw;
+ opacity: 0;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+ }
+
+.techi p:nth-child(1){
+  margin-left: 15vw;
+   color: white;
+  font-size: 2.5rem;
+  font-family: havletica,sans-serif;
+  background-color: rgba(0,0,0,0.6);
+  border-right: .15em solid black;
+  white-space: nowrap;
+  overflow: hidden; 
+
+  width: 60vw;
+ opacity: 0;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+ }
+
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid white;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid white;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid white;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid white;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+ @media only screen and (max-width: 768px)
+{ 
+    .row .rsidetxt{
+   padding-top: 10rem;
+   padding-left:10rem;
+ 
+}
