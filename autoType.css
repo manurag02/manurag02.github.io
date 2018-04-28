@@ -1,3 +1,4 @@
+
 /* Used as Welcome note to user. It does not works below 550 px*/
 :root {
   font-size: 12px; }
@@ -29,7 +30,7 @@
   animation-fill-mode: forwards;
 }
 
-/* Used for 2nd line "Hope you are doing good"*/
+/* Used for 2nd line "Explorer,Reader,Learner"*/
 .row .rsidetxt p:nth-child(2) {
   width: 11.5em;
   opacity: 0;
@@ -40,6 +41,7 @@
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
+
 /* Used for "Welcome to my Portfolio"*/
 .row .rsidetxt p:nth-child(3) {
   width: 11em;
@@ -51,8 +53,7 @@
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
-/* Used for My Projects section  "This is my First portfolio"*/
+/* Used for My Projects section  "This is my First project"*/
 .techi p{
   margin-left: 15vw;
    color: white;
@@ -87,11 +88,13 @@
  opacity: 0;
   -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
   animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
  }
+
+
 
 @keyframes type {
   0% {
