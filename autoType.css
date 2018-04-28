@@ -62,10 +62,11 @@
   border-right: .15em solid black;
   white-space: nowrap;
   overflow: hidden; 
+
   width: 60vw;
  opacity: 0;
-  -webkit-animation: type4 4s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type4 4s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
@@ -84,15 +85,13 @@
 
   width: 60vw;
  opacity: 0;
-  -webkit-animation: type5 5s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type5 5s steps(20, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 8s;
-  animation-delay: 8s;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
  }
-
-
 
 @keyframes type {
   0% {
