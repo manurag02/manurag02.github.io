@@ -1,4 +1,3 @@
-/* Used for Work Experience section*/
 .profdet{
   display: flex;
   border:box-border;
@@ -65,7 +64,6 @@
     opacity: 50;
 }
 
-/* Used for adjusting screen sizes*/
 @media only screen and (max-width: 500px)
 {
   .profdet
